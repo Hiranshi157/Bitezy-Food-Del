@@ -387,5 +387,5 @@ export const food_list=[
 
 
 ]
-export const url = 'http://localhost:8000'
+export const url = 'https://bitezy-food-del-backend.onrender.com'
 
