@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 const placeOrder=async(req,res)=>{
     const exchangeRate = 1.60;
 
- const frontend_url= "https://bitezy-food-del-frontend.onrender.com";
+ const frontend_url= "http://loacalhost:5174";
     try {
         const newOrder=new orderModel({
             userId: req.body.userId,//this userid is decoded by middleware from token to userId
